@@ -1,0 +1,15 @@
+item={"apple","banana"}
+item.add("orange")
+print(item) 
+item.update(["mango","peach"])
+print(item)
+# item.remove("banana")     
+# print(item)
+# item.discard("banansna")
+# print(item)
+a = item.pop()
+# print(item)   
+print(a)
+
+item.clear()
+print(item)
